@@ -1,0 +1,93 @@
+# =========================
+# Python cache & bytecode
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environments
+# =========================
+.env
+.env.*
+venv/
+.venv/
+ENV/
+env/
+virtualenv/
+
+# =========================
+# Jupyter / IPython
+# =========================
+.ipynb_checkpoints/
+.profile_default/
+ipython_config.py
+
+# =========================
+# Data files (often large or private)
+# =========================
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+
+# =========================
+# Model artifacts (ML / DL)
+# =========================
+models/
+checkpoints/
+saved_models/
+*.h5
+*.ckpt
+*.pt
+*.pth
+*.joblib
+
+# =========================
+# TensorFlow / Keras logs
+# =========================
+logs/
+tensorboard/
+events.out.tfevents.*
+
+# =========================
+# Scikit-learn cache
+# =========================
+.cache/
+joblib/
+
+# =========================
+# Experiment tracking
+# =========================
+mlruns/
+wandb/
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# =========================
+# Packaging / builds
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Test & coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
