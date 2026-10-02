@@ -22,7 +22,7 @@ This project is designed to experiment with, train, and evaluate recommendation 
 - **pandas**
 - **NumPy**
 - **scikit-learn**
-- **TensorFlow**
+- **PyTorch**
 - (Optional) Jupyter Notebook for experimentation
 
 ---
